@@ -16,3 +16,8 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Miscellaneous
+f1_2025_schedule_ist.ics
+f1_2025_schedule_Aus.ics
+f1_2025_schedule_Australia_Sydney.ics
