@@ -43,7 +43,7 @@ You’ll be prompted in the browser to sign in and approve access when you first
 ## Running the Script
 
 ```bash
-python script.py
+python script_google_api.py
 ```
 
 You’ll see output like:
