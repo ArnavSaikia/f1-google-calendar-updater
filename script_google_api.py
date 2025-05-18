@@ -37,7 +37,7 @@ def add_event(service, summary, start_time, duration, time_zone):
             'timeZone': time_zone,
         },
     }
-    created = service.events().insert(calendarId='549bbb0b7c642613f7ddea9e748e2b54a7230bea7f38ba1376a676ac797d6a07@group.calendar.google.com', body=event).execute()
+    created = service.events().insert(calendarId='primary', body=event).execute()
     print(f"✅ Added: {summary} ({created.get('htmlLink')})")
 
 
