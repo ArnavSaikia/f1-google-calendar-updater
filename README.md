@@ -6,7 +6,7 @@ This Python script automatically fetches all Formula 1 sessions for the current 
 
 ## Features
 
-- Fetches official F1 2025 schedule via [FastF1](https://theoehrly.github.io/Fast-F1/)
+- Fetches official F1 current year schedule via [FastF1](https://theoehrly.github.io/Fast-F1/) (subject to availability of data from the API)
 - Converts session start times to desired timezone
 - Adds each session (Practice, Quali, Race, etc.) to your Google Calendar
 
@@ -29,7 +29,7 @@ Make sure you’re using Python 3.9+
 pip install -r requirements.txt
 ```
 
-### 3. Set up Google Calendar API
+### 3. Set up Google Calendar API (Only for direct Google Calendar synchronization)
 
 - Go to [Google Cloud Console](https://console.cloud.google.com/)
 - Create a project and enable the **Google Calendar API**
